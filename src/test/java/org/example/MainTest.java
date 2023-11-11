@@ -8,8 +8,9 @@ class MainTest {
 
     @Test
     void answer() {
-        int expected = 42;
-        int actual = Main.answer();
+        String str = "{{{{}}}}";
+        boolean expected = true;
+        boolean actual = Main.answer(str);
         assertEquals(expected , actual);
     }
 }
