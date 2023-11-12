@@ -8,9 +8,9 @@ class MainTest {
 
     @Test
     void answer() {
-        String str = "{{{{}}}}";
-        boolean expected = true;
-        boolean actual = Main.answer(str);
+        String str = "tree";
+        int expected = 0;
+        int actual = Main.answer(str);
         assertEquals(expected , actual);
     }
 }
